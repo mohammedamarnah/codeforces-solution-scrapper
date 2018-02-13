@@ -6,11 +6,13 @@
 Clone the repo and open a new terminal / command prompt in the repos' path. Make sure you have ruby installed.
 Currently executable file is not available so you have to run the following:
 
-* gem install nokogiri
-* gem install mechanize
+
+* <i>gem install nokogiri</i>
+
+* <i>gem install mechanize</i>
 
 And then to download your solutions from Codeforces run the following:
 
-* ruby run.rb <handle> <password>
+* <i>ruby run.rb \<handle> \<password></i>
 
-Make sure you put your handle and password between quotations. (e.g ruby run.rb "your_handle_here" "your_password_here"). The program will download all your accepted solutions in the folder "codeforces-solutions"
+Make sure you put your handle and password between quotations. <i>(e.g ruby run.rb "your_handle_here" "your_password_here")</i>. The program will download all your accepted solutions in the folder <i>"codeforces-solutions"</i>
